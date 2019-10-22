@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/_20sdp"
+    android:background="@color/colorWhite"
+    tools:context=".feature.LoginOptionPage.LoginOptionActivity">
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_centerInParent="true"
+       android:orientation="vertical">
+
+
+    <EditText
+        android:id="@+id/phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Phone Number"
+        android:textSize="@dimen/_12sdp"
+        android:textColor="@color/colorBlack"
+        android:inputType="number"/>
+
+       <EditText
+           android:id="@+id/password"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:hint="Enter Password"
+           android:textSize="@dimen/_12sdp"
+           android:textColor="@color/colorBlack"
+           android:inputType="text"/>
+
+       <Button
+           android:id="@+id/btnlogin"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="Login"
+           android:layout_marginTop="@dimen/_20sdp"
+           android:background="@color/colorPrimary"
+           android:textColor="@color/colorWhite"/>
+
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:textColor="@color/colorTextLight"
+           android:layout_marginTop="@dimen/_10sdp"
+           android:textSize="@dimen/_10sdp"
+           android:text="Demo Phone Number - 1234567890 and Password -123456"/>
+
+   </LinearLayout>
+
+</RelativeLayout>
